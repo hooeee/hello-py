@@ -6,7 +6,7 @@ from commends import RunCli
 
 if __name__ == '__main__':
     args = InputArgs().get_args()
-    print(args.file_path, args.context)
+    print(args.file_path)
 
     cli_executor = RunCli()
 
