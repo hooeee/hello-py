@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     cli_executor = RunCli()
 
-    for i in range(random.randint(1, 5)):
+    for _ in range(random.randint(1, 5)):
         with open(args.file_path, "a", encoding="utf-8") as f:
             f.write(f"\n {datetime.now().isoformat()}")
 
